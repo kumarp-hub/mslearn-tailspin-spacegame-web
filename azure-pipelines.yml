@@ -2,7 +2,7 @@
 
 
 pool: 
-  vmImage: MySelfHostedAgent
+  vmImage: default
   
 steps:
 - bash: echo hello world 
