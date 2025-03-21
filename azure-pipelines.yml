@@ -1,9 +1,11 @@
+
+
+
 pool: 
   vmImage: MySelfHostedAgent
   
 steps:
-- bash: echo hello world
-
+- bash: echo hello world 
 - task: DotNetCoreCLI@2
   inputs:
     azureSubscription: 'Free Trial(d735ceb2-7ec2-482c-88fd-550ea7558e04)'
